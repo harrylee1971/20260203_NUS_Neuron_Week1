@@ -1,0 +1,4 @@
+addpath("after/exp1/")
+EEG = pop_loadset('filename', 'ec1.set');
+EEG = eeg_checkset(EEG);
+EEG = EEG.data.;
